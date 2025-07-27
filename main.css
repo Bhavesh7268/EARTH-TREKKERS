@@ -38,7 +38,7 @@ body {
     color: var(--earth-green);
 }
 .hero-image {
-    background-image: url('../img/Julie_Rivenbark.jpg');
+    background-image: url('img/Julie_Rivenbark.jpg');
     background-size: cover;
     background-position: center;
     height: 500px;
