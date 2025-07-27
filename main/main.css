@@ -1,0 +1,224 @@
+:root {
+    --earth-green: #5a8f3d;
+    --earth-dark: #333;
+    --earth-light: #f8f9fa;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    line-height: 1.7;
+}
+.top-bar {
+    background-color: var(--earth-light);
+    font-size: 14px;
+    padding: 8px 0;
+}
+.top-bar a {
+    color: #666;
+    text-decoration: none;
+    margin-left: 15px;
+    transition: color 0.3s;
+}
+.top-bar a:hover {
+    color: var(--earth-green);
+}
+.navbar-brand {
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--earth-dark);
+}
+.nav-link {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: var(--earth-dark);
+    padding: 10px 15px !important;
+}
+.nav-link:hover, .nav-link.active {
+    color: var(--earth-green);
+}
+.hero-image {
+    background-image: url('../img/Julie_Rivenbark.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.hero-overlay {
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    max-width: 800px;
+}
+
+.hero-text h1 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+}
+
+.hero-text p {
+    font-size: 20px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+}
+.post-content {
+    font-size: 16px;
+}
+.post-content h2 {
+    font-size: 28px;
+    margin: 35px 0 20px;
+    color: var(--earth-green);
+    font-weight: 700;
+}
+.post-content h3 {
+    font-size: 22px;
+    margin: 30px 0 15px;
+    font-weight: 600;
+}
+.post-content img {
+    max-width: 100%;
+    height: auto;
+    margin: 25px 0;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+.post-content .wp-caption {
+    max-width: 100%;
+    margin: 25px 0;
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+    color: #666;
+}
+.post-meta {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.sidebar-widget {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: var(--earth-light);
+    border-radius: 5px;
+}
+.sidebar-widget h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: var(--earth-green);
+    font-weight: 600;
+}
+.widget-popular-posts .list-group-item {
+    border: none;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+.widget-popular-posts .list-group-item:last-child {
+    border-bottom: none;
+}
+.widget-popular-posts a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.widget-popular-posts a:hover {
+    color: var(--earth-green);
+}
+.social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: var(--earth-green);
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+.social-icons a:hover {
+    background-color: #4a7a34;
+}
+.comments-section {
+    margin-top: 50px;
+    padding-top: 30px;
+    border-top: 1px solid #eee;
+}
+.comment {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+.comment-author {
+    font-weight: 600;
+    color: var(--earth-dark);
+}
+.comment-date {
+    font-size: 12px;
+    color: #666;
+}
+.comment-reply {
+    font-size: 14px;
+    color: var(--earth-green);
+    text-decoration: none;
+}
+footer {
+    background-color: var(--earth-dark);
+    color: #fff;
+    padding: 50px 0 20px;
+    margin-top: 50px;
+}
+footer h5 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+footer a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+footer a:hover {
+    color: #fff;
+}
+.footer-links li {
+    margin-bottom: 10px;
+}
+.newsletter-form .form-control {
+    background-color: rgba(255,255,255,0.1);
+    border: none;
+    color: #fff;
+}
+.newsletter-form .btn {
+    background-color: var(--earth-green);
+    border: none;
+}
+.copyright {
+    font-size: 14px;
+    color: #999;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+@media (max-width: 768px) {
+    .hero-text h1 {
+        font-size: 32px;
+    }
+    .hero-text p {
+        font-size: 18px;
+    }
+}
